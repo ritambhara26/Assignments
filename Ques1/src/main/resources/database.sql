@@ -1,0 +1,8 @@
+DROP TABLE IF EXISTS emp;
+
+CREATE TABLE emp (
+	id INT NOT NULL PRIMARY KEY,
+	name VARCHAR(40),
+	email VARCHAR(40),
+	salary INT
+);
