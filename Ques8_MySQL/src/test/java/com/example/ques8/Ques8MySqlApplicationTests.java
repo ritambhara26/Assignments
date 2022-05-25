@@ -35,7 +35,7 @@ class Ques8MySqlApplicationTests {
 	@Test
 	public void getUsersTest() {
 	when(employeerepository.findAll())
-	.thenReturn(Stream.of(new Employee(1,"Sam","sam@gmail.com",20000))
+	.thenReturn(Stream.of(new Employee(1,"Emma","emma@gmail.com",25000))
 	.collect(Collectors.toList()));
 	assertEquals(3, employeecontroller.getEmp().size());
 	}
