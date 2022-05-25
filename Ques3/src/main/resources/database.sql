@@ -1,7 +1,0 @@
-DROP TABLE IF EXISTS person;
-
-CREATE TABLE person (
-	id INT NOT NULL PRIMARY KEY,
-	name VARCHAR(40),
-	age INT
-);

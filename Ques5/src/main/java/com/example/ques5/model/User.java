@@ -1,16 +1,19 @@
-package com.example.ques3.model;
+package com.example.ques5.model;
 
-import javax.xml.bind.annotation.XmlRootElement;
-
-
-
-@XmlRootElement(name = "person")
-public class Person {
-
+public class User {
 	private Integer id;
 	private String name;
 	private Integer age;
 	
+	public User() {
+		
+	}
+	public User(Integer id, String name, Integer age) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.age = age;
+	}
 	public Integer getId() {
 		return id;
 	}
